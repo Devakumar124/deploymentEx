@@ -1,0 +1,89 @@
+<html>
+	<head>
+	<title>homepage</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+		#a2:hover{
+			background:#66cc99;
+            color:#000000;
+			padding:5px 0px 4px 0px;
+		  }
+	
+.mySlides {display:none;}
+</style>
+</head>
+	<body>
+		<div style="margin-left:20px">
+			<a href="file:///D:/Project/Marriage%20maker/homepage.html" style="text-decoration-line:none;">
+				<b><i style="color:white;background:red;font-size:30px;">m</i></b>
+				<span style="color:white;background:blue;font-size:30px">arriage</span>
+				<b><i style="color:white;background:red;font-size:30px">m</i></b>
+				<span style="color:white;background:blue;font-size:30px;margin-left:opx">aker</span>
+			</a>
+		</div>
+		<div id="nav" style="margin-top:20px;background:#339900;font-size:20px;height:33px;">
+			<b>
+			<div style="margin-top:2px;margin-left:30px;float:left">
+				<a id="a2" href="file:///D:/Project/Marriage%20maker/homepage.html" target="_self" style="color:white;text-decoration-line:none;">Home</a>
+			</div>
+			<div style="margin-top:2px;margin-left:35px;float:left">
+				<a id="a2" href="catering.html" target="_self" style="color:white;text-decoration-line:none;">Catering</a>
+			</div>
+			<div style="margin-top:2px;float:left;margin-left:35px">
+				<a id="a2" href="photogtrapher.html" target="_self" style="color:white;text-decoration-line:none;">Photographer</a>
+			</div>
+			<div  style="margin-top:2px;float:left;margin-left:20px">
+				<a id="a2" href="decoration.html"target="_self" style="color:white;text-decoration-line:none;">Decoration</a>
+			</div>
+			<div style="margin-top:2px;float:left;margin-left:35px">
+				<a id="a2" href="weddingmall.html" target="_self" style="color:white;text-decoration-line:none;">WeddingMall</a>
+			</div>
+			<div style="margin-top:2px;float:left;margin-left:35px">
+				<a id="a2" href="vehicles.html" target="_self" style="color:white;text-decoration-line:none;">Vehicles</a>
+			</div>
+			<div style="margin-top:2px;float:left;margin-left:35px">
+				<a id="a2" href="brahmans.html" target="_self" style="color:white;text-decoration-line:none;">Brahmans</a>
+			</div>
+			<div style="margin-top:2px;float:left;margin-left:35px">
+				<a id="a2" href="hierers" target="_self" style="color:white;text-decoration-line:none;">Hierers</a>
+			</div>
+			<div style="margin-top:2px;margin-left:35px;float:left">
+				<a id="a2" href="catering.html" target="_self" style="color:white;text-decoration-line:none;">Melalu</a>
+			</div>
+			<div style="margin-top:2px;float:left;margin-left:35px">
+				<a id="a2" href="Lighting.html" target="_self" style="color:white;text-decoration-line:none;">Lighting</a>
+			</div>
+			<div style="margin-top:2px;margin-left:35px;float:left">
+				<a id="a2" href="catering.html" target="_self" style="color:white;text-decoration-line:none;">Login</a>
+			</div>
+			<div style="margin-top:2px;margin-left:35px;float:left">
+				<a id="a2" href="catering.html" target="_self" style="color:white;text-decoration-line:none;">Register</a>
+			</div>
+		</b>
+		</div>
+		<div class="w3-content w3-section" style="margin=10%;">
+			<img class="mySlides" src="images/M1.jpg" style="width:100% ; height:450px">
+			 <img class="mySlides" src="images/M2.jpg" style="width:100% ;height:450px">
+			 <img class="mySlides" src="images/M3.jpg" style="width:100%; height:450px;">
+		</div>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+				}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+				setTimeout(carousel, 2000); // Change image every 2 seconds
+				}
+	</script>
+
+		
+	</body>
+<html>

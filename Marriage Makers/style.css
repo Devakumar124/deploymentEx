@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Sep, 2020, 9:14:21 PM
+    Author     : Dell
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background:#ccccff;
+}
+.container{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10px;
+	padding:0;
+}
+.box{    
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,5);
+    display: flex;
+    flex-flow: row;
+    transition: 0.5s;
+    
+}
+.box2{    
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,5);
+    display: flex;
+    flex-flow: row;
+    transition: 0.5s;
+    
+}
+.box:hover{
+    
+     box-shadow: 0 15px 30px rgba(0,0,0,5);
+}
+.box2:hover{
+    
+     box-shadow: 0 15px 30px rgba(0,0,0,5);
+}
+.imgbx{
+    flex:1;
+    padding-right: 20px;
+    box-sizing: border-box;
+    
+}
+.box2 .imgbx{
+    flex:1;
+    padding-left: 20px; 
+    box-sizing: border-box;
+    
+}
+    
+.imgbx .t1{
+    width: 100%;
+}
+.t1:hover{
+     box-shadow: 0 5px 15px rgba(0,0,0,5);
+}
+
+.content{
+   flex:1;
+}
+.h2{
+    margin:0;
+    padding-left: 0;
+    color: #ff0033;
+    font-size: 26px;
+	text-align:center;
+    text-decoration-line: none;
+    cursor:auto;
+    
+}
+.a{
+    text-decoration: none;
+    color:#ff3366
+}
+.h2:hover{
+    font-size: 30px;
+}
+ .p{
+    margin: 0;
+    padding:15px 0 0;
+    font-size: 22px;
+    text-align: justify;
+    
+}
+@media(max-width:1000px){
+    .box{
+        flex-flow:column;
+    }  
+    
+    .box .imgbx{
+        width: 100%;
+    }
+    .box2{
+        flex-flow: column-reverse wrap;
+    }
+    .box2 .imgbx{
+        width: 100%;
+    }
+}
